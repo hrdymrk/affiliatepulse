@@ -1,0 +1,12 @@
+{
+  "entity": "EmailBlast",
+  "description": "Email campaigns sent to contacts",
+  "fields": {
+    "subject": "string — Email subject line",
+    "body": "string — Email body content",
+    "affiliate_link_id": "string — Linked affiliate offer ID",
+    "status": "string — Draft | Sent | Scheduled",
+    "sent_count": "number — Number of emails sent",
+    "sent_date": "date — When it was sent"
+  }
+}
