@@ -1,0 +1,17 @@
+{
+  "entity": "LandingPage",
+  "description": "Landing pages for each affiliate offer",
+  "fields": {
+    "title": "string",
+    "headline": "string — Main headline",
+    "subheadline": "string",
+    "body_text": "string",
+    "cta_button_text": "string — Call-to-action button text",
+    "affiliate_link_id": "string — Linked affiliate offer ID",
+    "image_url": "string",
+    "video_url": "string",
+    "slug": "string — URL slug",
+    "views": "number — Total page views",
+    "is_published": "boolean"
+  }
+}
