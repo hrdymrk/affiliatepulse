@@ -1,0 +1,16 @@
+{
+  "entity": "AffiliateLink",
+  "description": "Tracks all affiliate products and their performance",
+  "fields": {
+    "title": "string — Product/offer name",
+    "description": "string — Short description",
+    "original_url": "string — Base product URL",
+    "affiliate_username": "string — Your affiliate username",
+    "full_affiliate_url": "string — Full tracking URL with affiliate tag",
+    "niche": "string — Market niche",
+    "image_url": "string — Product image URL",
+    "clicks": "number — Total click count",
+    "earnings": "number — Total earnings in USD",
+    "is_active": "boolean — Active status"
+  }
+}
