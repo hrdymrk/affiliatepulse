@@ -1,0 +1,14 @@
+{
+  "entity": "Contact",
+  "description": "Leads and subscriber database",
+  "fields": {
+    "first_name": "string",
+    "last_name": "string",
+    "email": "string",
+    "phone": "string",
+    "source": "string — Where they came from",
+    "tags": "string — Labels/tags",
+    "status": "string — Lead status",
+    "notes": "string"
+  }
+}
