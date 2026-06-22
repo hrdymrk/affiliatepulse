@@ -1,0 +1,13 @@
+{
+  "entity": "ShareReminder",
+  "description": "Scheduled reminders to post/share on social media",
+  "fields": {
+    "title": "string",
+    "affiliate_link_id": "string — Linked affiliate offer ID",
+    "platform": "string — TikTok | Instagram | Facebook | YouTube",
+    "scheduled_time": "datetime",
+    "repeat": "string — Daily | Weekly | None",
+    "notes": "string — What to post",
+    "completed": "boolean"
+  }
+}
